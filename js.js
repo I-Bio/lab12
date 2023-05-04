@@ -107,7 +107,7 @@ function Quest4()
 
     for (let i = 1; i <= num; i++)
     {
-        if (i % 2 === 0)
+        if (i % 2 == 0)
         {
             answ *= i;
         }
@@ -137,7 +137,7 @@ function Quest6()
         numCheck += num[i];
     }
 
-    if (num === numCheck)
+    if (num == numCheck)
     {
         answ = "Палиндром";
     }
